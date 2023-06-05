@@ -4,8 +4,8 @@ public class AreaTerreno {
 
 	public double area;
 	
-	public String calcularArea(double largura, double comprimento) {
+	public void calcularArea(double largura, double comprimento) {
 		area = largura * comprimento;
-		return "O tamanho total da área é de: "+area+" metros.";
+		System.out.println("O tamanho total da área é de: "+area+" metros.");
 	}
 }

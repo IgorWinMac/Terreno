@@ -18,7 +18,7 @@ public class Program {
 		System.out.println("Digite aqui o comprimento: ");
 		double comprimento = entrada.nextDouble();
 		
-		System.out.println(area.calcularArea(largura, comprimento));
+		area.calcularArea(largura, comprimento);
 		
 		entrada.close();
 
